@@ -178,9 +178,9 @@ def player_numbers (team_search)
       end
       home_jersey_numbers.sort
     end
+    binding.pry
   # end
   return home_jersey_numbers
-  binding.pry
 
 end
 

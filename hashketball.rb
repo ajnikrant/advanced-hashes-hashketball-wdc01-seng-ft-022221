@@ -214,6 +214,6 @@ rebounds = 0
         player[:rebounds] = rebounds
       end
     end
+    return rebounds
   end
-return rebounds
 end

@@ -177,6 +177,7 @@ def player_numbers (team_search)
         home_jersey_numbers.push(numbers[:number])
         # binding.pry
       end
+      binding.pry
     end
     # binding.pry
 

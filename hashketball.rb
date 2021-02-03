@@ -173,25 +173,20 @@ def player_numbers (team_search)
 
   if game_hash[:home][:team_name] == team_search
     game_hash.each do |team, team_location|
-      team_location[:home].each do |value|
-        value[:player].each do |numbers|
-          home_jersey_numbers << numbers[:number]
-          binding.pry
-        end
+      team_location[:players].each do |numbers|
+        home_jersey_numbers.push(numbers[:number])
+        # binding.pry
       end
     end
-    # home_jersey_numbers
-    binding.pry
+    # binding.pry
+
   end
 
     if game_hash[:away][:team_name] == team_search
       game_hash.each do |team, team_location|
-        team_location[:away].each do |value|
-          value[:player].each do |numbers|
-            home_jersey_numbers << numbers[:number]
-          end
+        team_location[:players].each do |numbers|
+          away_jersey_numbers.push(numbers[:number])
         end
       end
     end
-    away_jersey_numbers
 end

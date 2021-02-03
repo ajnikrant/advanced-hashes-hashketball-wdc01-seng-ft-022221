@@ -186,7 +186,7 @@ def player_numbers (team_search)
           away_jersey_numbers << numbers[:number]
         end
       end
-      away_jersey_numbers
+      away_jersey_numbers.sort
     end
 
 end

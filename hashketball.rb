@@ -176,6 +176,7 @@ def player_numbers (team_search)
       team_location[:home].each do |value|
         value[:player].each do |numbers|
           home_jersey_numbers << numbers[:number]
+          binding.pry
         end
       end
     end

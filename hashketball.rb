@@ -173,17 +173,17 @@ def player_numbers (team_search)
 
 
   if game_hash[:home][:team_name] == team_search
-    # while counter <game_hash[:home][:players].length
-      binding.pry
-      # game_hash[:home][:players][counter][:number]
+    while counter <game_hash[:home][:players].length
       # binding.pry
-      # counter+=1
-    # end
+      home_jersey_numbers << game_hash[:home][:players][counter][:number]
+      # binding.pry
+      counter+=1
+    end
   end
 
 
-  if game_hash[:away][:team_name] == team_search
-  end
+  # if game_hash[:away][:team_name] == team_search
+  # end
 
 
 

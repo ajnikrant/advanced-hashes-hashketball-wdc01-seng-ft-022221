@@ -215,5 +215,5 @@ rebound = 0
       end
     end
   end
-  rebound
+  return rebound
 end

@@ -173,7 +173,7 @@ def player_numbers (team_search)
     game_hash.each do |team, team_location|
       team_location[:players].each do |numbers|
         jersey_numbers << numbers[:number]
-        # binding.pry
+        binding.pry
       end
     end
   end
@@ -181,7 +181,7 @@ def player_numbers (team_search)
       game_hash.each do |team, team_location|
         team_location[:players].each do |numbers|
           # numbers[:number].each do |element|
-          jersey_numbers << element[:number]
+          jersey_numbers << number[:number]
         end
       end
     end

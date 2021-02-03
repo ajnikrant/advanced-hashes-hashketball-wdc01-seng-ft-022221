@@ -190,7 +190,8 @@ end
         end
         away_jersey_numbers.sort
       end
-    end
+    # end
     return away_jersey_numbers
+  end
 
 end

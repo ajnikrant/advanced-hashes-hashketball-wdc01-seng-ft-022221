@@ -181,13 +181,15 @@ def player_numbers (team_search)
 
     end
   end
+  
     if game_hash[:away][:team_name] == team_search
       game_hash.each do |team, team_location|
         team_location[:players].each do |numbers|
           away_jersey_numbers << numbers[:number]
         end
+        away_jersey_numbers
+
       end
-      away_jersey_numbers
     end
 
 end

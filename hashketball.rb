@@ -182,9 +182,14 @@ def player_numbers (team_search)
   end
 
 
-  # if game_hash[:away][:team_name] == team_search
-  # end
-
+  if game_hash[:away][:team_name] == team_search
+    while counter<game_hash[:away][:players].length
+      away_jersey_numbers << game_hash[:away][:players][counter][:number]
+      # binding.pry
+      counter+=1
+    end
+    return away_jersey_numbers.sort
+  end
 
 
 end

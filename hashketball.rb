@@ -186,7 +186,5 @@ def player_numbers (team_search)
         end
       end
     end
-  home_jersey_numbers
-  away_jersey_numbers
 
 end

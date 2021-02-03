@@ -180,7 +180,7 @@ def player_numbers (team_search)
     if game_hash[:away][:team_name] == team_search
       game_hash.each do |team, team_location|
         team_location[:players].each do |numbers|
-          numbers[:number].each do |element|
+          # numbers[:number].each do |element|
           jersey_numbers << element[:number]
         end
       end

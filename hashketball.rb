@@ -179,9 +179,9 @@ def player_numbers (team_search)
       end
       home_jersey_numbers.sort
     end
-    return home_jersey_numbers
-
   end
+  return home_jersey_numbers
+
 
     if game_hash[:away][:team_name] == team_search
       game_hash.each do |team, team_location|
@@ -190,6 +190,7 @@ def player_numbers (team_search)
         end
         away_jersey_numbers.sort
       end
-      return away_jersey_numbers
     end
+    return away_jersey_numbers
+
 end

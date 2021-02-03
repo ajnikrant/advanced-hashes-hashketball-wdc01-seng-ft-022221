@@ -188,6 +188,8 @@ def player_numbers (team_search)
         team_location[:players].each do |numbers|
           away_jersey_numbers.push(numbers[:number])
         end
+        away_jersey_numbers.sort
       end
+      return away_jersey_numbers
     end
 end

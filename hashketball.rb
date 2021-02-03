@@ -199,4 +199,6 @@ def player_stats(search_player)
       if player [:player_name] == search_player
         binding.pry
       end
+    end
+  end
 end

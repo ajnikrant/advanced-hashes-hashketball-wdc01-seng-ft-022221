@@ -178,7 +178,7 @@ def player_numbers (team_search)
         # binding.pry
       end
     end
-    home_jersey_numbers.sort
+    home_jersey_numbers
   end
     if game_hash[:away][:team_name] == team_search
       game_hash.each do |team, team_location|
@@ -186,7 +186,7 @@ def player_numbers (team_search)
           away_jersey_numbers << numbers[:number]
         end
       end
-      away_jersey_numbers.sort
+      away_jersey_numbers
     end
 
 end

@@ -169,30 +169,19 @@ end
 def player_numbers (team_search)
   home_jersey_numbers = []
   away_jersey_numbers =[]
+  counter = 0
 
 
   if game_hash[:home][:team_name] == team_search
-    game_hash.each do |team, team_location|
-      team_location[:players].each do |numbers|
-        home_jersey_numbers.push(numbers[:number])
-      end
-      home_jersey_numbers.sort
-    end
-    # binding.pry
-  # end
-  return home_jersey_numbers
-
-end
-
-    if game_hash[:away][:team_name] == team_search
-      game_hash.each do |team, team_location|
-        team_location[:players].each do |numbers|
-          away_jersey_numbers.push(numbers[:number])
-        end
-        away_jersey_numbers.sort
-      end
-    # end
-    return away_jersey_numbers
+    while counter <game_hashv[:home][:players].values.length
+      game_hash[:home][:players][counter][:number]
+      counter+=1
   end
+
+
+  if game_hash[:away][:team_name] == team_search
+  end
+
+
 
 end

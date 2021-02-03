@@ -190,6 +190,4 @@ def player_numbers (team_search)
     end
     return away_jersey_numbers.sort
   end
-
-
 end

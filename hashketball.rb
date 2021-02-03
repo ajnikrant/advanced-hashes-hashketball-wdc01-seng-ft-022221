@@ -179,7 +179,7 @@ def player_numbers (team_search)
         end
       end
     end
-    home_jersey_numbers
+    # home_jersey_numbers
     binding.pry
   end
 

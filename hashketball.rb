@@ -177,6 +177,7 @@ def player_numbers (team_search)
       game_hash[:home][:players][counter][:number]
       binding.pry
       counter+=1
+    end
   end
 
 

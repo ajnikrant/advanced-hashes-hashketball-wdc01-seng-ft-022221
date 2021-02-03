@@ -191,3 +191,12 @@ def player_numbers (team_search)
     return away_jersey_numbers.sort
   end
 end
+
+
+def player_stats(search_player)
+  game_hash.each do |team, team_location|
+    team_location[:players].each do |player|
+      if player [:player_name] == search_player
+        
+      end
+end

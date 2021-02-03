@@ -178,6 +178,8 @@ def player_numbers (team_search)
         # binding.pry
       end
     end
+    binding.pry
+
   end
 
     if game_hash[:away][:team_name] == team_search
@@ -187,6 +189,4 @@ def player_numbers (team_search)
         end
       end
     end
-home_jersey_numbers.sort
-away_jersey_numbers.sort
 end

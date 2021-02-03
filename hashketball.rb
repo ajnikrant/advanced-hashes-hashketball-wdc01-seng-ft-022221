@@ -180,6 +180,7 @@ def player_numbers (team_search)
       end
     end
     home_jersey_numbers
+    binding.pry
   end
 
     if game_hash[:away][:team_name] == team_search

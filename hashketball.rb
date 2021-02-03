@@ -178,7 +178,7 @@ def player_numbers (team_search)
         # binding.pry
       end
     end
-    binding.pry
+    # binding.pry
 
   end
 

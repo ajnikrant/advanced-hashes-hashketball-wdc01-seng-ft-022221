@@ -197,7 +197,7 @@ def player_stats(search_player)
   game_hash.each do |team, team_location|
     team_location[:players].each do |player|
       if player [:player_name] == search_player
-        binding.pry
+        # binding.pry
       end
     end
   end

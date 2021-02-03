@@ -213,8 +213,6 @@ rebounds = 0
         player [:shoe] = biggest_shoe
         player[:rebounds] = rebounds
       end
-      return rebounds
-
     end
   end
 end

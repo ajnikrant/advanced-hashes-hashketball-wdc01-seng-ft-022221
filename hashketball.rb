@@ -173,7 +173,7 @@ def player_numbers (team_search)
 
 
   if game_hash[:home][:team_name] == team_search
-    # while counter <game_hash[:home][:players].values.length
+    # while counter <game_hash[:home][:players].length
       binding.pry
       # game_hash[:home][:players][counter][:number]
       # binding.pry
